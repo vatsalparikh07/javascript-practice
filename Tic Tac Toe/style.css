@@ -1,0 +1,46 @@
+#board{
+    padding: 3em;
+    text-align: center;
+}
+
+.top, .bottom, .center{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.row{
+    clear :both;
+    margin: 0 auto;
+    width: 302px;
+}
+.row > div{
+    text-align: center;
+    font-size: 75px;
+}
+.top{
+    border-bottom: 1px black solid;
+}
+
+.center{
+    border-bottom: 1px black solid;
+}
+
+.left{
+    border-right: 1px black solid;
+}   
+.right{
+    border-left: 1px black solid;
+}
+
+.row:hover{
+    cursor: pointer;
+}
+
+.button{
+    position: relative;
+    top: 100px;
+    right: 190px;
+    font-size: 25px;
+}
+
