@@ -1,5 +1,11 @@
 # Just My Type
 
+## Features
+* Press the shift key to toggle between uppercase and lowercase keyboard.
+* Pressed keys are highlighted in the browser.
+* A visual log of "right/wrong" is provided to check the character typed.
+* At the end of the game, words per minute and no. of mistakes committed are calculated!
+
 ## Info
 * You are going to build a typing game
 * This lab uses an older version of the Bootstrap UI Framework. It is already imported for you.
