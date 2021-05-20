@@ -1,20 +1,20 @@
-# Just My Type
+# Just My Type ⌨
 
-## Features
+## Features ✨
 * Press the shift key to toggle between uppercase and lowercase keyboard.
 * Pressed keys are highlighted in the browser.
 * A visual log of "right/wrong" is provided to check the character typed.
 * At the end of the game, words per minute and no. of mistakes committed are calculated!
 
-## Info
+## Info ℹ
 * You are going to build a typing game
 * This lab uses an older version of the Bootstrap UI Framework. It is already imported for you.
 * You will be using JQuery to complete this lab
     * Make sure you import JQuery into your html file
     * You will also need to import your own JavaScript file that you create
 
-## Objectives
-* (ALREADY COMPLETE) Create two keyboards (include space bar):
+## Objectives 🎯
+* Create two keyboards (include space bar):
 		* First keyboard, lowercase keys, numbers and special characters accessed without shift
 		* Second, keys accessed while holding down the shift key
 		* Exclude keys like tab, delete, shift, command, ctl, caps, option/alt & enter
