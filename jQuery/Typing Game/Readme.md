@@ -44,7 +44,7 @@ let sentences = ['ten ate neite ate nee enet ite ate inet ent eate', 'Too ato to
     * If confirmed yes, reset the game back to the start.
     * If no, leave as is.
 
-## Hints
+## Hints 💡
 * To succeed in this exercise, you need to keep track of:
     * Which sentence the user is on
     * Which letter of that sentence the user is on
