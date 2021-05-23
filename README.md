@@ -7,3 +7,6 @@ This repo contains drills, projects, and practice stuff related to JavaScript
 * Typing Game
 * jQuery Drills
 
+2. Context Clues
+* A fun problem to practice concepts like function context, scoping, closure and hoisting.
+
