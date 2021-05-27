@@ -32,14 +32,13 @@ Example:
 9. Create a new function that will take in two parameters and return an object literal. It should have two properties, the exponent result (x^y) and the product of the two numbers.
 10. Log each property using a template literal.
 
-Hints
-The split method is used to split a string into an array of substrings, and returns the new array.
-Spread Syntax
-Write a function that takes 3 parameters: name, location, favFood.
-Create an array with 3 values, have the values match the order of the 3 parameters. Ex. let arr = [“Paul”, “Birmingham”, “Kimchi”];
-Spread operators allow us to take multiple values, like an array, and insert them as 3 separate values.
-Using a spread operator insert the values of the array into the function, check the console and see what appears.
-Create a variable that has a value of your name.
-Write a function that takes a parameter, name the parameter whatever you’d like.
-Using spread syntax, create a variable in the function that takes the string you pass into the function and spreads it into an array.
-Using a for loop, loop through the spread string and console log each value of the string.
+## Spread Syntax
+
+1. Write a function that takes 3 parameters: `name`, `location`, `favFood`.
+2. Create an array with 3 values, have the values match the order of the 3 parameters. Ex. `let arr = [“Paul”, “Birmingham”, “Kimchi”];`
+3. Spread operators allow us to take multiple values, like an array, and insert them as 3 separate values.
+4. Using a spread operator insert the values of the array into the function, check the console and see what appears.
+5. Create a variable that has a value of your name.
+6. Write a function that takes a parameter, name the parameter whatever you’d like.
+7. Using spread syntax, create a variable in the function that takes the string you pass into the function and spreads it into an array.
+8. Using a for loop, loop through the spread string and console log each value of the string.
