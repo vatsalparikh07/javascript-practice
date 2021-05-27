@@ -1,4 +1,4 @@
-## ES6 Drills
+# ES6 Drills
 
 # Template Literals and Default Parameters Value
 1. Declare a new function named `favMovie` that takes in one parameter.
