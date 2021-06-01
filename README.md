@@ -12,3 +12,7 @@ This repo contains drills, projects, and practice stuff related to JavaScript
 
 3. ES6 Drills
 
+4. OOP 
+* OOP Drills
+* Dicey Business
+* Shape up or Shape out
