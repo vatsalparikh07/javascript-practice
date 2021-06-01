@@ -3,16 +3,16 @@ This repo contains drills, projects, and practice stuff related to JavaScript
 
 ## Repository Index
 
-1. jQuery
+### jQuery
 * Typing Game
 * jQuery Drills
 
-2. Context Clues
+### Context Clues
 * A fun problem to practice concepts like function context, scoping, closure and hoisting.
 
-3. ES6 Drills
+### ES6 Drills
 
-4. OOP 
+### OOP
 * OOP Drills
 * Dicey Business
 * Shape up or Shape out
