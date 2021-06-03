@@ -91,3 +91,11 @@ h3.greet();
 h4.greet();
 h5.greet();
 
+/* Inheritance */
+class Vehicle {
+    constructor(wheels,doors,reverse){
+        this.wheels = wheels;
+        this.doors = doors;
+        this.reverse = reverse;
+    }
+}
