@@ -92,10 +92,59 @@ h4.greet();
 h5.greet();
 
 /* Inheritance */
+
 class Vehicle {
-    constructor(wheels,doors,reverse){
+    constructor(type,wheels,manufacturer,doors){
+        this.type = type;
         this.wheels = wheels;
+        this.manufacturer = manufacturer;
         this.doors = doors;
-        this.reverse = reverse;
+    }
+    aboutVehicle(){
+        console.log(`Type of vehicle: ${this.type}, Manufactured by: ${this.manufacturer}, No. of wheels: ${this.wheels} `);
     }
 }
+
+class Truck extends Vehicle{
+    constructor(type,wheels,manufacturer,doors,truckbed){
+        super(type,wheels,manufacturer,doors);
+        this.truckbed = truckbed;
+    }
+    aboutVehicle(){
+        console.log(`Type of vehicle: ${this.type}, Manufactured by: ${this.manufacturer}, No. of wheels: ${this.wheels}, No. of doors: ${this.doors}, Does it have a truckbed : ${this.truckbed}`);
+    }
+}
+
+class Sedan extends Vehicle{
+    constructor(type,wheels,manufacturer,doors,size,mpg){
+        super(type,wheels,manufacturer,doors);
+        this.size = size;
+        this.mpg = mpg;
+    }
+    aboutVehicle(){
+        console.log(`Type of vehicle: ${this.type}, Manufactured by: ${this.manufacturer}, No. of wheels: ${this.wheels}, No. of doors: ${this.doors}, Size : ${this.size}, Mileage: ${this.mpg}`);
+    }
+}
+
+class Motorcycle extends Vehicle{
+    constructor(type,wheels,manufacturer,doors,steeringWheel,handleBars){
+        super(type,wheels,manufacturer,doors);
+        this.steeringWheel = steeringWheel;
+        this.handleBars = handleBars;
+    }
+    aboutVehicle(){
+        console.log(`Type of vehicle: ${this.type}, Manufactured by: ${this.manufacturer}, No. of wheels: ${this.wheels}, No. of doors: ${this.doors}, Does it have a steering wheel: ${this.steeringWheel}, but instead does it have a handle bar: ${this.handleBars}`);
+    }
+}
+
+let v1 = new Vehicle('Activa',2,'Honda',0);
+v1.aboutVehicle();
+
+let v2 = new Truck('Truxo',18,'Mahindra', 2 , false);
+v2.aboutVehicle();
+
+let v3 = new Sedan('Amaze', 4, 'Honda', 4 , 'Small', '30kmpl' );
+v3.aboutVehicle();
+
+let v4 = new Motorcycle('Pulsar',2,'Bajaj',0,'No','Yes');
+v4.aboutVehicle();
