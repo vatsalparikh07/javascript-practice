@@ -53,3 +53,24 @@ The purpose of this lab is to help solidify the OOP Class inheritance concepts y
 * Needs to call the constructor of its logical parent class
 * A square is a special type of rectangle
 * Can have methods that define behavior/calculations specific to Squares
+
+### Additional details
+
+1. Clicking on any shape should call a method named describe(), which should update the statistics in the sidepanel in index.html
+2. Double clicking on any shape should remove the shape from the screen
+3. Every shape draws itself when it is created. The shape will be drawn according to the size specified when the shape was created, and the shape will be placed in a random location within the shape canvas
+4. To keep things simple, it helps to think of every shape having a width and height (even the circle and triangle have a "bounding box" we cannot see that can be derived from their single measurement)
+5. Remember that a circle's perimeter is the same as its circumference
+6. Drawing a triangle is going to be tricky!
+7. Circles should be purple, Squares should be red, Triangles should be yellow, and Rectangles should be green
+
+### Hints/Resources
+
+* Try to use CSS class names and write as many styles onto those class names as you can
+* Only use inline-styles when necessary (and some things will require it in this lab)
+* It may help to review relative vs absolute positioning, and how top and left can be used to specify the location of an html element
+* You may find this guide helpful for drawing shapes with CSS (For triangle, use Top-Left, Top-Right, Bottom-Left, or Bottom-Right): https://css-tricks.com/the-shapes-of-css/
+* Triangle area: ```0.5 * base * height```
+* Triangle perimeter (right isoceles): ```2 * height + (square root of 2) * height```
+
+
