@@ -27,3 +27,29 @@ The purpose of this lab is to help solidify the OOP Class inheritance concepts y
 * Radius:
 * Area:
 * Perimeter:
+
+### JavaScript Objectives
+
+1. You must use OOP. Specifically, you must use the classes defined below and properly use inheritance
+2. Class- Shape
+* Shape is very generic
+* Try to put as much logic in this class as you can, but remember, sometimes you have to put logic in child classes for more custom behavior
+3. Class- Circle
+* Needs to take a single parameter, radius, in its constructor
+* Needs to call the constructor of its logical parent class
+* Can have methods that define behavior/calculations specific to Circles
+4. Class- Triangle
+* This will be a right isosceles Triangle
+* Needs to take a single parameter, height, in its constructor
+* Since it is a right isosceles Triangle, height/width/base will all be the same
+* Needs to call the constructor of its logical parent class
+* Can have methods that define behavior/calculations specific to Triangles
+5. Class- Rectangle
+* Needs to take two parameters, width and height, in its constructor
+* Needs to call the constructor of its logical parent class
+* Can have methods that define behavior/calculations specific to Rectangles
+6. Class- Square
+* Needs to take a single parameter, sideLength, in its constructor
+* Needs to call the constructor of its logical parent class
+* A square is a special type of rectangle
+* Can have methods that define behavior/calculations specific to Squares
