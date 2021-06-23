@@ -1,1 +1,28 @@
+.container{
+    height: 250px;
+    border: 2px solid;
+}
 
+#c1{
+    margin: 10px auto auto 250px;
+    height: 450px;
+    width: 450px;
+    background-color: lightskyblue;
+    border: 2px solid;
+    float:left
+}
+
+#c2{
+    margin: 10px auto auto 250px;
+    height: 450px;
+    width: 250px;
+    background-color: rgba(146, 40, 146, 0.671);
+    border: 2px solid;
+    float: left;
+    padding-top:15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
