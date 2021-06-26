@@ -9,7 +9,8 @@
     width: 450px;
     background-color: lightskyblue;
     border: 2px solid;
-    float:left
+    float:left;
+    position: relative;
 }
 
 #c2{
@@ -25,4 +26,24 @@
     flex-direction: column;
     justify-content: space-evenly;
 
+}
+
+.square{
+    position: absolute;
+    background-color: red;
+}
+
+.rectangle{
+    position: absolute;
+    background-color: green;
+}
+
+.circle{
+    position: absolute;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.triangle{
+    position: absolute;
 }
