@@ -1,3 +1,4 @@
+/* Global Variables */ 
 let shapebox = document.getElementById('c1');
 
 let shapeName = document.getElementById('name');
@@ -7,6 +8,7 @@ let area = document.getElementById('area');
 let perimeter = document.getElementById('perimeter');
 let radius = document.getElementById('radius');
 
+/* Parent Class - Shape */
 class Shape{
     constructor(x,y){
         this.div = document.createElement('div');
@@ -16,7 +18,7 @@ class Shape{
     }
 }
 
-
+/* Child Class - Rectangle inherited from Shape */
 class Rectangle extends Shape{
 
     constructor(x,y,recheight,recwidth){
@@ -25,6 +27,7 @@ class Rectangle extends Shape{
         this.div.style.width = `${recwidth}px`;
         this.div.style.height = `${recheight}px`;
 
+        /* Describe Shape Method */
         this.div.addEventListener('click', () =>{
             shapeName.value = this.div.classList;
             width.value = recwidth;
@@ -45,6 +48,7 @@ class Rectangle extends Shape{
     }
 }
 
+/* Child Class - Square inherited from Shape */
 class Square extends Shape{
    
     constructor(x,y,size){
@@ -53,6 +57,7 @@ class Square extends Shape{
         this.div.style.width = `${size}px`;
         this.div.style.height = `${size}px`;
 
+        /* Describe Shape Method */        
         this.div.addEventListener('click', () =>{
             shapeName.value = this.div.classList;
             width.value = size;
@@ -69,6 +74,7 @@ class Square extends Shape{
 
 }
 
+/* Child Class - Circle inherited from Shape */
 class Circle extends Shape{
    
     constructor(x,y,radius){
@@ -77,6 +83,7 @@ class Circle extends Shape{
         this.div.style.width = `${radius*2}px`;
         this.div.style.height = `${radius*2}px`;
 
+        /* Describe Shape Method */
         this.div.addEventListener('click', () =>{
             shapeName.value = this.div.classList;
             width.value = radius*2;
@@ -93,6 +100,7 @@ class Circle extends Shape{
 
 }
 
+/* Child Class - Triangle inherited from Shape */
 class Triangle extends Shape{
    
     constructor(x,y,size){
@@ -101,6 +109,7 @@ class Triangle extends Shape{
         this.div.style.borderBottom = `${size}px solid yellow`;
         this.div.style.borderRight = `${size}px solid transparent`;
 
+        /* Describe Shape Method */        
         this.div.addEventListener('click', () =>{
             shapeName.value = this.div.classList;
             width.value = size;
@@ -117,6 +126,7 @@ class Triangle extends Shape{
 
 }
 
+/* Button event listeners */
 let sqbutton = document.getElementById('square');
 sqbutton.addEventListener('click', insertSquare);
 
@@ -129,6 +139,7 @@ cirbutton.addEventListener('click', insertCircle);
 let tributton = document.getElementById('triangle');
 tributton.addEventListener('click', insertTriangle);
 
+/* Functions that insert the shape in shapecanvas */
 function insertSquare(){
     let size = document.getElementById('sq-input').value;
     let xVal = randomVal(0,450-size);
@@ -158,7 +169,7 @@ function insertTriangle(){
     let tri = new Triangle(xVal,yVal,size);
 }
 
+/*Random Value function*/
 function randomVal(min,max){
     return Math.floor(Math.random() * (max-min) + min);
 }
-
